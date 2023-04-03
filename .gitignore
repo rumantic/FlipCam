@@ -8,3 +8,17 @@
 .idea/modules/app/FlipCam.app.androidTest.iml
 .idea/modules/app/FlipCam.app.main.iml
 .idea/modules/app/FlipCam.app.unitTest.iml
+.gradle/checksums/sha1-checksums.bin
+.gradle/checksums/md5-checksums.bin
+.gradle/checksums/checksums.lock
+.gradle/buildOutputCleanup/outputFiles.bin
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/7.0.2/javaCompile/taskHistory.bin
+.gradle/7.0.2/javaCompile/javaCompile.lock
+.gradle/7.0.2/javaCompile/jarAnalysis.bin
+.gradle/7.0.2/javaCompile/classAnalysis.bin
+.gradle/7.0.2/fileHashes/resourceHashesCache.bin
+.gradle/7.0.2/fileHashes/fileHashes.lock
+.gradle/7.0.2/fileHashes/fileHashes.bin
+.gradle/7.0.2/executionHistory/executionHistory.lock
+.gradle/7.0.2/executionHistory/executionHistory.bin
