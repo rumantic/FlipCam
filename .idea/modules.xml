@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FlipCam.iml" filepath="$PROJECT_DIR$/FlipCam.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlipCam.iml" filepath="$PROJECT_DIR$/.idea/modules/FlipCam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlipCam.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlipCam.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlipCam.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlipCam.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlipCam.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlipCam.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlipCam.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlipCam.app.unitTest.iml" />
     </modules>
   </component>
 </project>
