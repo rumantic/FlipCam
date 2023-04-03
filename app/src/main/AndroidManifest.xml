@@ -2,6 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.flipcam">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
     <application
         android:name=".ControlVisbilityPreference"
         android:allowBackup="true"
@@ -12,10 +27,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".VideoChatActivity"
+            android:exported="false" />
+        <activity
             android:name=".UserManualActivity"
             android:exported="false"
-            android:screenOrientation="portrait"/>
-
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PermissionActivity"
             android:exported="true">
@@ -25,21 +42,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".CameraActivity"
             android:screenOrientation="nosensor" />
-
         <activity
             android:name=".MediaActivity"
             android:configChanges="orientation|screenSize" />
         <activity
             android:name=".SettingsActivity"
-            android:configChanges="orientation|screenSize"></activity>
+            android:configChanges="orientation|screenSize" />
         <activity
             android:name=".MemoryLimitActivity"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".GalleryActivity"
             android:configChanges="orientation|screenSize" />
@@ -47,13 +61,14 @@
             android:name=".PhotoSettingsActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/photoSettingsTitle" />
-
         <activity
             android:name=".VideoSettingsActivity"
             android:label="@string/videoSettingsTitle" />
+
         <meta-data
             android:name="com.google.android.apps.drive.APP_ID"
             android:value="790824425492" />
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -63,26 +78,9 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
-
         <provider
             android:name=".data.MediaProvider"
             android:authorities="@string/content_authority" />
-
     </application>
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="true" />
-    <uses-feature
-        android:name="android.hardware.camera2"
-        android:required="false" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
 </manifest>

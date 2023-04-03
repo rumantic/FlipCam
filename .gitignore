@@ -1,2 +1,10 @@
 .idea/
 .gradle/*
+.gradle/checksums/sha1-checksums.bin
+.gradle/7.0.2/fileHashes/fileHashes.lock
+.gradle/checksums/checksums.lock
+.gradle/checksums/md5-checksums.bin
+.gradle/checksums/sha1-checksums.bin
+.idea/modules/app/FlipCam.app.androidTest.iml
+.idea/modules/app/FlipCam.app.main.iml
+.idea/modules/app/FlipCam.app.unitTest.iml
