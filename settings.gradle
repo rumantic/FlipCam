@@ -1,1 +1,2 @@
 include ':app'
+include ':agorauikit_android'

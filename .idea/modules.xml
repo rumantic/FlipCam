@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlipCam.iml" filepath="$PROJECT_DIR$/.idea/modules/FlipCam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/agorauikit_android/FlipCam.agorauikit_android.iml" filepath="$PROJECT_DIR$/.idea/modules/agorauikit_android/FlipCam.agorauikit_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/agorauikit_android/FlipCam.agorauikit_android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/agorauikit_android/FlipCam.agorauikit_android.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/agorauikit_android/FlipCam.agorauikit_android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/agorauikit_android/FlipCam.agorauikit_android.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/agorauikit_android/FlipCam.agorauikit_android.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/agorauikit_android/FlipCam.agorauikit_android.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlipCam.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlipCam.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlipCam.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlipCam.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlipCam.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlipCam.app.main.iml" />
