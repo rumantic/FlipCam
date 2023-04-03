@@ -29,6 +29,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.flipcam.constants.Constants;
 import com.flipcam.util.GLUtil;
+import com.flipcam.videoChat.VideoChatActivity;
 import com.flipcam.view.PinchZoomGestureListener;
 
 import java.io.File;
@@ -161,9 +162,17 @@ PhotoFragment.SwitchPhoto, VideoFragment.LowestThresholdCheckForVideoInterface, 
     }
 
     public void goToSettings(View view){
+        Intent videoChatIntent = new Intent(this, TestActivity.class);
+        startActivity(videoChatIntent);
+        // overridePendingTransition(R.anim.slide_from_right,R.anim.slide_to_left);
+
+
+/*
         Intent settingsIntent = new Intent(this, SettingsActivity.class);
         startActivity(settingsIntent);
         overridePendingTransition(R.anim.slide_from_right,R.anim.slide_to_left);
+*/
+
     }
 
     public void toggleMicrophone(View view){
